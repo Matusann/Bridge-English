@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Aprenda inglês com aulas de conversação, turmas pequenas e horários flexíveis. Matrículas abertas na Bridge English. Garanta sua vaga hoje.">
     <link rel="stylesheet" href="style/style.css">
     <title>Bridge English | Matrículas abertas para cursos de inglês</title>
@@ -16,34 +17,35 @@
         <section id="hero">
             <img src="svg/Selo.svg" alt="Selo de Matrículas Abertas">
             <h1>Curso de inglês para você falar mais e chegar mais longe</h1>
-            <h2>Aulas dinâmicas, turmas pequenas e acompanhamento de perto do seu progresso. Dê o primeiro passo hoje.</h2>
-            <a href="#formulario">Quero me matricular</a>    
+            <p>Aulas dinâmicas, turmas pequenas e acompanhamento de perto do seu progresso. Dê o primeiro passo hoje.</p>
+            <a href="#formulario" class="btn">Quero me matricular</a>
+            <img src="svg/ponte.svg" alt="">   
         </section>
         <section id="sobre">
             <h2>Uma ponte entre você e o mundo</h2>
-            <h3>A Bridge English leva o inglês da teoria para a vida real: viagens, carreira, estudos e novas amizades. Aqui você fala desde o primeiro dia, num ambiente acolhedor onde errar faz parte de aprender.</h3>    
+            <p>A Bridge English leva o inglês da teoria para a vida real: viagens, carreira, estudos e novas amizades. Aqui você fala desde o primeiro day, num ambiente acolhedor onde errar faz parte de aprender.</p>
         </section>
         <section id="diferenciais">
-            <h1>Por que estudar na Bridge English</h1>
+            <h2>Por que estudar na Bridge English</h2>
             <ul class="cards">
                 <li class="card">
-                    <h2>Conversação desde o dia 1</h2>
-                    <img src="svg/Vector-ChatBubble.svg" alt="Ícone de balão de conversa">
+                    <h3>Conversação desde o dia 1</h3>
+                    <img src="svg/Vector-ChatBubble.svg" alt="">
                     <p>Você fala em todas as aulas, com situações reais.</p>
                 </li>
                 <li class="card">
-                    <h2>Turmas pequenas</h2>
-                    <img src="svg/Vector-People.svg" alt="Ícone de Pessoas">
+                    <h3>Turmas pequenas</h3>
+                    <img src="svg/Vector-People.svg" alt="">
                     <p>Até 8 alunos, para atenção de verdade.</p>
                 </li>
                 <li class="card">
-                    <h2>Horários flexíveis</h2>
-                    <img src="svg/Vector-Clock.svg" alt="Ícone de relógio">
+                    <h3>Horários flexíveis</h3>
+                    <img src="svg/Vector-Clock.svg" alt="">
                     <p>Aulas online ou presenciais que cabem na sua rotina.</p>
                 </li>
                 <li class="card">
-                    <h2>Progresso acompanhado</h2>
-                    <img src="svg/Vector-Graph.svg" alt="Ícone de gráfico">
+                    <h3>Progresso acompanhado</h3>
+                    <img src="svg/Vector-Graph.svg" alt="">
                     <p>Metas claras e feedback a cada etapa.</p>
                 </li>
             </ul>
@@ -59,51 +61,53 @@
         <section id="depoimentos">
             <div class="container"> 
             <h1>Quem já atravessou a ponte</h1>
-            <h2>Histórias de alunos da Bridge English</h2>
+            <p>Histórias de alunos da Bridge English</p>
                 <ul class="depoimentos">
                     <li class="depoimento">
                         <img src="img/CamilaRocha.png" alt="" width="400" height="400">
                         <p>“Em dois meses, participei de uma reunião inteira em inglês sem travar.”</p>
-                        <h3>Camila Rocha, 29 anos, analista de marketing</h3>
+                        <p>Camila Rocha, 29 anos, analista de marketing</p>
                     </li>
                     <li class="depoimento">
                         <img src="img/RafaelAlmeida.png" alt="" width="400" height="400">
                         <p>“Com turmas pequenas, o professor corrige na hora e eu perdi a vergonha de falar.”</p>
-                        <h3>Rafael Almeida, 22 anos, estudante de engenharia</h3>
+                        <p>Rafael Almeida, 22 anos, estudante de engenharia</p>
                     </li>
                     <li class="depoimento">
                         <img src="img/JulianaMartins.png" alt="" width="400" height="400">
                         <p>“Encaixei as aulas online na minha rotina e viajei sem depender de tradutor.”</p>
-                        <h3>Juliana Martins, 35 anos, advogada</h3>
+                        <p>Juliana Martins, 35 anos, advogada</p>
                     </li>
                 </ul>
             </div>
         </section>    
         <section id="cta-final"> 
             <h1>Sua próxima conquista começa em inglês</h1>
-            <h2>Garanta sua vaga e faça o teste de nível sem custo.</h2>
-            <a href="#formulario">Garantir minha vaga</a>
+            <p>Garanta sua vaga e faça o teste de nível sem custo.</p>
+            <a href="#formulario" class="btn">Garantir minha vaga</a>
         </section>
         <section id="formulario">
+            <h2>Faça sua matrícula</h2> 
             <form action="#" method="POST">
-                <h1>Faça sua matrícula</h1>
-                <div class="container">
+                <div class="campo">
                     <label for="nome">Nome completo</label>
                     <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
                 </div>
-                <div class="container">
+                <div class="campo">
                     <label for="email">E-mail</label>
                     <input type="email" id="email" name="email" placeholder="voce@email.com" required>
                 </div>
-                <div class="container">
+                <div class="campo">
                     <label for="telefone">Whatsapp</label>
                     <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
+                </div>
+                <div class="campo">    
                     <input type="checkbox" id="concordo" name="concordo" required>
                     <label for="concordo">Concordo em ser contatado(a) pela Bridge English.</label>
                     <p>Sem compromisso. Retornamos em até 24 horas.</p>
                 </div>
-                <div>
-                    <label for="nivel">Qual seu nivel de inglês?</label>
+                <div class="campo">
+                    <label for="nivel">Qual seu nível de inglês?</label>
                     <select id="nivel" name="nivel" required>
                         <option value="" disabled selected>Selecione seu nível</option>
                         <option value="iniciante">Iniciante</option>
