@@ -1,0 +1,41 @@
+:root {
+    --coral: #FF6B4A;
+    --coral-hover: #FF8466;
+    --verde-petroleo-profundo: #062C36;
+    --verde-petroleo: #0B3C49;
+    --azul-petroleo: #1F7A8C;
+    --verde-agua: #E4F2F1;
+    --offwhite: #F7F3EA;
+    --branco: #FFFFFF;
+
+    --font-title: "Sora", sans-serif;
+    --font-text: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;    
+}
+
+body {
+    color: var(--verde-petroleo-profundo);
+    background-color: var(--offwhite);
+}
+
+header {
+    background-color: var(--coral);
+    height: 50px ;
+    display: flex;
+    align-items: center;  
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+
