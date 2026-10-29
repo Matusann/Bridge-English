@@ -26,6 +26,13 @@ body {
     background-color: var(--offwhite);
 }
 
+h1 {
+    font-family: var(--font-title);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
 header {
     background-color: var(--coral);
     height: 50px ;
