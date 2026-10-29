@@ -2,6 +2,7 @@
     --coral: #FF6B4A;
     --coral-hover: #FF8466;
     --verde-petroleo-profundo: #062C36;
+    --verde-petroleo-hover: #0B3C49;
     --verde-petroleo: #0B3C49;
     --azul-petroleo: #1F7A8C;
     --verde-agua: #E4F2F1;
@@ -29,29 +30,44 @@ body {
 
 h1 {
     font-family: var(--font-title);
-    font-size: 60px;    
+    font-weight: 700;
+    font-size: 60px; 
 }
 
 h2 {
     font-family: var(--font-title);
+    font-weight: 600;
     font-size: 36px;
 }
 
 h3 {
     font-family: var(--font-title);
+    font-weight: 600;
     font-size: 24px;
 }
 
 .btn {
     font-size: 18px;
+    color: var(--verde-petroleo-profundo);
+    background-color: var(--coral); 
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: var(--coral-hover);
+    color: var(--verde-petroleo-hover);
 }
 
 button {
     font-size: 16px;
 }
 
-p {
-    font-size: 14px;
+input, select, button {
+    font-family: inherit;
 }
 
 header {
@@ -75,7 +91,7 @@ header {
 
 #hero h1,
 #hero p {
-    max-width: 600px;
+    max-width: 1000px;
 }
 
 .hero-ponte {
@@ -83,6 +99,147 @@ header {
     bottom: 0;
     right: 0;
     width: auto;
-    height: 70%;
+    height: 80%;
     z-index: -1;
+}
+
+#sobre {
+    padding: 50px 100px;
+    align-items: center;
+    background-color: var(--verde-petroleo-profundo);
+    color: var(--branco);
+}
+
+#diferenciais {
+    padding: 50px 100px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    margin-top: 20px;
+    background-color: var(--coral);
+    padding: 20px;
+    border: 1px solid var(--verde-petroleo-profundo);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.cards {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+#como-funciona {
+    padding: 50px 100px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#depoimentos {
+    list-style-type: none;
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.depoimentos {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+#cta-final {
+    margin-bottom: 40px;
+    padding: 50px 300px;
+    text-align: center;
+    background-color: var(--verde-petroleo-profundo);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; 
+    align-items: center;
+}
+
+#cta-final a {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+#formulario h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: var(--verde-agua);
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    border-radius: 15px;
+    border: 1px solid var(--verde-petroleo-profundo);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+#nome, #email, #telefone, #nivel {
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid var(--azul-petroleo);
+    font-size: 16px;
+}
+
+::placeholder {
+    color:#D3D3D3;
+    opacity: 1;
+}
+
+.campo-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 12px; 
+}
+
+.checkbox-text{
+    margin: 4px 0 0 0; 
+}
+
+.campo-checkbox p {
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: var(--coral);
+    color: var(--verde-petroleo-profundo);
+    text-align: center;
+    padding: 20px;
 }
