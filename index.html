@@ -88,37 +88,38 @@
         </section>
         <section id="depoimentos">
             <div class="container">
-                <h2 class="titulo-depoimentos">Quem já atravessou a ponte</h2>
-                <p class="subtitulo">Histórias de alunos da Bridge English</p>
-                </div>
-                <div class="depoimentos-bg">
-                    <div class="container">  
-                        <ul class="depoimentos">
-                            <li class="depoimento">
-                                <img src="img/CamilaRocha.png" alt="" width="400" height="400" class="foto-aluno">
-                                <p>“Em dois meses, participei de uma reunião inteira em inglês sem travar.”</p>
-                                <p class="nome">Camila Rocha, 29 anos, analista de marketing</p>
-                            </li>
-                            <li class="depoimento">
-                                <img src="img/RafaelAlmeida.png" alt="" width="400" height="400" class="foto-aluno">
-                                <p>“Com turmas pequenas, o professor corrige na hora e eu perdi a vergonha de falar.”</p>
-                                <p class="nome">Rafael Almeida, 22 anos, estudante de engenharia</p>
-                            </li>
-                            <li class="depoimento">
-                                <img src="img/JulianaMartins.png" alt="" width="400" height="400" class="foto-aluno">
-                                <p>“Encaixei as aulas online na minha rotina e viajei sem depender de tradutor.”</p>
-                                <p class="nome">Juliana Martins, 35 anos, advogada</p>
-                            </li>
-                        </ul>
-                    </div>  
-                </div>
-            </div>    
+                    <h2 class="titulo-depoimentos">Quem já atravessou a ponte</h2>
+                    <p class="subtitulo">Histórias de alunos da Bridge English</p>
+            </div>
+                <div>
+                    <div class="depoimentos-bg">
+                        <div class="container">  
+                            <ul class="depoimentos">
+                                <li class="depoimento">
+                                    <img src="img/CamilaRocha.png" alt="" width="400" height="400" class="foto-aluno">
+                                    <p>“Em dois meses, participei de uma reunião inteira em inglês sem travar.”</p>
+                                    <p class="nome">Camila Rocha, 29 anos, analista de marketing</p>
+                                </li>
+                                <li class="depoimento">
+                                    <img src="img/RafaelAlmeida.png" alt="" width="400" height="400" class="foto-aluno">
+                                    <p>“Com turmas pequenas, o professor corrige na hora e eu perdi a vergonha de falar.”</p>
+                                    <p class="nome">Rafael Almeida, 22 anos, estudante de engenharia</p>
+                                </li>
+                                <li class="depoimento">
+                                    <img src="img/JulianaMartins.png" alt="" width="400" height="400" class="foto-aluno">
+                                    <p>“Encaixei as aulas online na minha rotina e viajei sem depender de tradutor.”</p>
+                                    <p class="nome">Juliana Martins, 35 anos, advogada</p>
+                                </li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>       
         </section>    
         <section id="cta-final">
             <div class="container">
                 <h2>Sua próxima conquista começa em inglês</h2>
-                <p>Garanta sua vaga e faça o teste de nível sem custo.</p>
-                <a href="#formulario" class="btn">Garantir minha vaga</a>
+                <p class="cta-texto">Garanta sua vaga e faça o teste de nível sem custo.</p>
+                <a href="#formulario" class="btn-cta">Garantir minha vaga</a>
             </div> 
         </section>
         <section id="formulario">
@@ -127,15 +128,15 @@
                 <form action="#formulario" method="get">
                     <div class="campo">
                         <label for="nome">Nome completo</label>
-                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                        <input type="text" id="nome" name="nome" autocomplete="name" placeholder="Seu nome" required>
                     </div>
                     <div class="campo">
                         <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+                        <input type="email" id="email" name="email" autocomplete="email" placeholder="voce@email.com" required>
                     </div>
                     <div class="campo">
                         <label for="telefone">Whatsapp</label>
-                        <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
+                        <input type="tel" id="telefone" name="telefone" autocomplete="tel" placeholder="(11) 99999-9999" required>
                     </div>
                     <div class="campo-checkbox">
                             <input type="checkbox" id="concordo" name="concordo" required>
